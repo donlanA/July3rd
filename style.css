@@ -1,0 +1,47 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Pn4I_wdAW4NaqvzGZhNDcrrYkYWQK9YdQQ&s);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 100% 30%;
+}
+
+
+h1 {
+    font-family: monospace;
+    background-color: yellow;
+}
+
+p {
+    font-size: 120%;
+    font-weight: 500;
+    font-style: italic;
+    transition: 0.2s;
+}
+
+p:hover {
+    color: red;
+    /* opacity: 0.5; */
+}
+
+
+.blue {
+    color:red;
+}
+
+#purple {
+    color:rgb(252, 187, 252);
+}
+
+div {
+    color: green;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    margin: 100px 15px;
+    border: blue 5px dotted;
+    padding: 20px;
+}
+
+span {
+    color: green;
+}
